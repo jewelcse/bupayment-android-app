@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_home">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/profileImage"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:background="@android:color/white"
+           android:src="@drawable/logo" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/rollno"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+           <TextView
+               android:id="@+id/regno"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_height="49dp"
+               android:text="TextView" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/studentname"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/mothername"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+           <TextView
+               android:id="@+id/fathername"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_height="49dp"
+               android:text="TextView" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/email"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+           <TextView
+               android:id="@+id/phone"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_height="49dp"
+               android:text="TextView" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/semester"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+           <TextView
+               android:id="@+id/department"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_height="49dp"
+               android:text="TextView" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/faculty"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="55dp"
+               android:text="TextView" />
+
+       </LinearLayout>
+   </LinearLayout>
+
+
+
+
+</ScrollView>
